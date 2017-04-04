@@ -1,2 +1,2 @@
 # capmetro-gtfs-api
-Serves individual GTFS files RESTfully instead of just a .zip link
+A very tacky API that serves individual GTFS files RESTfully instead of just a .zip link
