@@ -44,4 +44,4 @@ api.add_resource(endpoint, '/<string:endpoint>')
 api.add_resource(getRow, '/<string:endpoint>/<string:field>=<string:value>')
 
 if __name__ == '__main__':
-     app.run()
+     app.run(port = int(os.environ.get('PORT', 33507)))
